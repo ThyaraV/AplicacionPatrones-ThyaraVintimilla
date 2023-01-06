@@ -5,9 +5,12 @@ class Program
 {
     static void Main(string[] args)
     {
+        
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.Yellow;
         Console.Clear();
+
+        Console.WriteLine("Los lados obtenidos de las figuras son: ");
 
         Figura cuartaFigura = Creadora.CreadoraFigura(Creadora.Cuadrado);
         Console.WriteLine(cuartaFigura.CuantasLadosTengo());
