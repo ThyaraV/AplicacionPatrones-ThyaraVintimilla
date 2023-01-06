@@ -13,7 +13,7 @@ namespace AplicacionPatrones_ThyaraVintimilla
         public const int Triangulo = 3;
         public const int Pentagono = 4;
 
-        public static Figura CreadoraFigura(int TipoFigura) // ClASE PARA CREADORA DE LOS OBJETOS
+        public static Figura CreadoraFigura(int TipoFigura) // ClASE CREADORA DE LOS OBJETOS
         {
             switch (TipoFigura)
             {
